@@ -15,6 +15,11 @@ function Header() {
         <header className=''>
             <div>
                 <HeaderItem title='HOME' Icon={HomeIcon} />
+                <HeaderItem title="VERIFIED" Icon={BadgeCheckIcon} />
+                <HeaderItem title="COLLECTIONS" Icon={CollectionIcon} />
+                <HeaderItem title="TRENDING" Icon={LightningBoltIcon} />
+                <HeaderItem title="SEARCH" Icon={SearchIcon} />
+                <HeaderItem title="ACCOUNT" Icon={UserIcon} />
             </div>
             <Image 
                 alt = "Hulu Image"
